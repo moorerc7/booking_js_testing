@@ -19,13 +19,29 @@
 <div id="bookingjs">
   <script type="text/javascript">
     window.timekitBookingConfig = {
-      app:      'carwhile-booking-348',
-      email:    'ryan@carwhile.com',
-      apiToken: 'vq2oRoZ0jiJEqR79XdMTSAxMp8ZoK3RP',
-      calendar: '8c384374-51a7-4865-bdac-730018ae5eba',
-      name:     'Ryan Moore',
-      avatar:   'assets/favicon_large.png'
+      id: 					'8c384374-51a7-4865-bdac-730018ae5eba',
+      email:    			'ryan@carwhile.com',
+      apiToken: 			'vq2oRoZ0jiJEqR79XdMTSAxMp8ZoK3RP',
+      calendar: 			'34679f29-5919-4327-ab0b-538ed147396d',
+      name:     			'Classic Clean',
+      avatar:   			'assets/favicon_large.png',
+      bookingGraph: 		'confirm_decline', 
+      timekitFindTime: {
+      	start: 	'2 hours',
+      	length: '90 minutes'
+      },
+      timekitCreateBooking: {
+      	// graph: 	'confirm_decline',
+      	event: {
+      		where: 	'ENTER PICKUP ADDRESS',
+      		// what: 	data.name + 's Classic Clean w/ the Carwhile Boys!'
+      	}
+      },
+      fullCalendar: {
+      	// defaultView: 'month'
+      }
     };
+
   </script>
 </div>
 
